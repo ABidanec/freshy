@@ -1,0 +1,54 @@
+.footer{
+
+}
+
+.footer__top{
+	padding: 63px 0 73px;
+}
+
+.footer-text{
+	float: left;
+	width: 23%;
+	margin-left:2%;
+}
+
+.footer-text__head{
+	font-family: 'montserrat-bold', sans-serif;
+	font-size: 22px;
+	margin: 0 0 31px 0;
+}
+
+.footer-text__item{
+	margin: 0 0 18px 0;
+}
+
+.footer-text__link{
+	text-decoration: none;
+	color: $font_color;
+	transition: $time;
+
+	&:hover{
+		color: $main_color;
+		transition: $time;
+	}
+}
+
+.footer__bottom{
+	background: $footer_bottom_bg;
+	padding: 53px 0;
+}
+
+.footer__copy, 
+.footer__logo{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'montserrat-regular', sans-serif;
+}
+
+.footer__copy{
+	float: left;
+}
+
+.footer__logo{
+	float: right;
+}

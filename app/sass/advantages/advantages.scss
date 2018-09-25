@@ -1,0 +1,56 @@
+.advantages{
+	text-align: center;
+}
+.advantages__item{
+	float: left;
+	width: 31%;
+	margin-left: 3%;
+	text-align: center;
+
+	&:nth-child(3n+1){
+		margin-left: 0;
+	}
+}
+
+.advantages__img{
+	position: relative;
+	display: inline-block;
+	background: $main_color;
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	margin: 0 0 39px 0;
+}
+
+.advantages__pan,
+.advantages__fish,
+.advantages__shrimp{
+	position: absolute;
+}
+
+.advantages__pan{
+	top: 15px;
+	left: 20px;
+}
+
+.advantages__fish{
+	top: 18px;
+    left: 22px;
+}
+
+.advantages__shrimp{
+	top: 25px;
+    left: 25px;
+}
+
+.block__head_h3{
+	@extend .block__head;
+	font-size: 24px;
+}
+.advantages__prew{
+	margin: 0 0 70px 0;
+
+	p{
+		margin: 0 0 10px 0;
+	}
+}

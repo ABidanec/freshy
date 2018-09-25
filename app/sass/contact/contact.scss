@@ -1,0 +1,53 @@
+.contact{
+	position: relative;
+	background: url("../img/bg_contact.jpg") no-repeat top center;
+	background-size: cover;
+	min-height: 534px;
+	color: white;
+
+	.bg_mask{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+.contact__content{
+	float: right;
+	width: 40%;
+	margin: 148px 0 0;
+	text-align: right;
+}
+
+.block__head_white{
+	color: white;
+	text-transform: uppercase;
+	&:after{
+		background: white;
+		transform: translate(-3%, -50%);
+	}
+}
+
+.contact__prew{
+	margin: 0 0 38px 0;
+}
+
+
+.contact__btn{
+	padding: 10px 23px;
+	background: white;
+	border-radius: 5px;
+	text-decoration: none;
+	color: $main_color;
+	font-family: 'montserrat-bold', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: $time;
+
+	&:hover{
+		transition: $time;
+		background: #c3c3c3;
+	}
+}

@@ -1,0 +1,46 @@
+.about__left, .about__right{
+	width: 50%;
+	float: left;
+
+	p{
+		text-indent: 16px;
+	}
+}
+
+.phone__wrap{
+	margin: 0 0 37px 0;
+}
+
+.phone__link{
+	font-family: 'montserrat-bold', sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+
+	@include link_hover($main_color, $main_color_h);
+}
+
+.btn_blue{
+	@extend .top-phone__link;
+	padding: 10px 23px;
+}
+
+.about__right{
+	position: relative;
+	background: url("../img/bg_about_right.jpg") no-repeat top center;
+	background-size: cover;
+	min-height: 380px;
+
+	.bg_mask{
+		min-height: 380px;
+	}
+
+	p{
+		color: white;
+		font-family: 'montserrat-bold', sans-serif;
+		font-size: 22px;
+		margin: 0;
+		position: absolute;
+		bottom: 10%;
+		right: 10%;
+	}
+}
